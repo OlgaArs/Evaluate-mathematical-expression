@@ -16,7 +16,7 @@ def calc(formula: str) -> int:
             formula_string = '0'+formula_string
         return formula_string
 
-    def parse(formula_string: str) -> str:
+    def parse(formula_string: str) -> float:
         number = ''
         for s in formula_string:
             if s in '1234567890.':
